@@ -1,4 +1,11 @@
-setTimeout(() => {
-  document.write("customer 1 was entertained");  
-}, 5000);
-document.write("customer 2 was entertained");
+let person ={
+    name:"juan",age:18,course:"IT",
+    address:{
+        number:156,street:"batangas st", city:"qc"
+    }
+}
+
+
+document.write(person["name"]);
+
+
